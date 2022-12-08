@@ -120,19 +120,20 @@ body {
 }
 
 #line-1 {
-    margin-top: 2rem;
-    height: 1.5px;
+    margin-top: 3rem;
+    height: 2px;
     border-width: 0;
     background-color: #000000;
     max-width: 83%;
     margin-left: 8vw;
+
 }
 
 .header-1 {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -207,7 +208,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-right: 2rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     border-width: 0.1rem;
     border-style: solid;
     border-bottom: none;
@@ -217,11 +218,10 @@ body {
 #jsquery-container {
     display: flex;
     justify-content: space-between;
-    margin-right: 2rem;
-    margin-left: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
     border-width: 0.1rem;
-    border-style: solid;
-
+    border-style:solid;
     border-left: none;
 }
 
@@ -233,9 +233,23 @@ body {
     display: flex;
     justify-content: space-around;
     margin-right: 2rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     border-width: 0.1rem;
     border-style: solid;
     border-right: none;
     border-top: none;
 }
+.cms {
+    max-width: 12rem;
+    height: 6rem;
+    margin-top:0;
+}
+
+#cms-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border-width: 0.1rem;
+}
+
