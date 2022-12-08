@@ -142,6 +142,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .code-institute {
     width: 14rem;
     height: auto;
@@ -167,12 +168,13 @@ body {
     margin-left: 6vw;
 
 }
+
 .competent-skills {
-    width: 5rem; 
+    width: 5rem;
     max-height: 113px;
-    display: flex; 
+    display: flex;
     margin-top: 18%;
-   
+
 }
 
 #level-list {
@@ -186,4 +188,54 @@ body {
 
 .level-description {
     font-size: 0.8rem;
+}
+
+.framework-list {
+    display: flex;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    margin-top: 16%;
+    text-align: center;
+}
+
+.competent-frameworks {
+    width: 8rem;
+    max-height: 160px;
+}
+
+#bootstrap-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-bottom: none;
+    border-right: none;
+}
+
+#jsquery-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border-width: 0.1rem;
+    border-style: solid;
+
+    border-left: none;
+}
+
+#jsquery-list {
+    padding: 0;
+}
+
+#django-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
 }
