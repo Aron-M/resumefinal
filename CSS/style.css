@@ -1,9 +1,15 @@
+*{
+    margin:0;
+    font-family: "Alexandria", sans-serif;
+    color: rgb(246, 249, 255);
+}
+
 body {
     background-image: linear-gradient(to bottom,
-            rgb(38, 85, 180) 0%,
-            rgb(38, 85, 180) 10%,
-            rgb(41, 44, 49) 10%,
-            rgb(41, 44, 49) 100%
+    rgb(246, 249, 255) 0rem,
+    rgb(246, 249, 255) 17rem,
+            rgb(41, 44, 49) 17rem,
+            rgb(41, 44, 49) 100vh
         );
     height: 450vh;
     margin: 0;
@@ -11,12 +17,12 @@ body {
 
 .sticky-header {
     font-family: 'Bebas-Neue', sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(246, 249, 255);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height:8%;
+    height:10%;
     z-index: 999999;
   }
   
@@ -37,13 +43,78 @@ body {
   
   .nav-button  i {
     font-size: 2rem;
-    margin-top: 1rem;
     margin-right: 4vw;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color:#292c31
   }
   
-  #home-button {
-    display: flex;
-    justify-content: flex-start;
+  #home-button i {
+    font-size: 2rem;
+    padding-left: 0.8vw;
+    margin-top: 1rem;
+    margin-right: 4vw;
+    margin-bottom: 1.5rem;
+    color: #292c31;
+
   }
+
+
+  #sticky-header-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #name {
+    display: flex;
+    justify-content: center;
+    font-family: "Alexandria", sans-serif;
+    font-size: 2.5rem;
+    margin-top: 12vh;
+    color: #292c31;
+   
+    
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: "Alexandria", sans-serif;
+    font-size: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    color:#292c31;
+}
+
+#job-areas {
+    display: flex;
+    justify-content: center;
+    font-family: "Alexandria", sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+}
+.profile-picture {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-width: 0.2rem;
+    border-style: solid;
+    object-fit: cover;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
