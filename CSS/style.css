@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to bottom,
+            rgb(38, 85, 180) 0%,
+            rgb(38, 85, 180) 10%,
+            rgb(41, 44, 49) 10%,
+            rgb(41, 44, 49) 100%
+        );
+    height: 450vh;
+    margin: 0;
+}
+
+.sticky-header {
+    font-family: 'Bebas-Neue', sans-serif;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:8%;
+    z-index: 999999;
+  }
+  
+  .header-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    max-height: fit-content;
+  }
+  
+  .logo {
+    width: 6rem;
+    margin-right: 5rem;
+    margin-left: 1.5rem;
+  }
+  
+  /* 2.1.2 navigation */
+  
+  .nav-button  i {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-right: 4vw;
+    margin-bottom: 1.5rem;
+    color:#292c31
+  }
+  
+  #home-button {
+    display: flex;
+    justify-content: flex-start;
+  }
