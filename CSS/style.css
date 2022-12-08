@@ -10,7 +10,7 @@ body {
             rgb(246, 249, 255) 17rem,
             rgb(41, 44, 49) 17rem,
             rgb(41, 44, 49) 100vh);
-    height: 450vh;
+    height: 650vh;
     margin: 0;
 }
 
@@ -253,3 +253,123 @@ body {
     border-width: 0.1rem;
 }
 
+.button-about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+  padding: 0.65em 1.6em;
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Alexandria", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 2.5s infinite linear;
+  position: relative;
+}
+
+.bn13 {
+    text-decoration: none;
+}
+
+.button-about-me:hover {
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+
+  @keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
+
+  .cv {
+    display: flex;
+    justify-content: center;
+  }
+  .cv-pdf {
+    width: 10rem;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .contact-message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #ffffff;
+    padding: 2% 0 2% 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 10vw;;
+}
+
+.form-inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.text-inputs {
+    margin-bottom: 5%;
+    width: 90%;
+    height: 3vh;
+}
+
+.button-submit-button {
+color: #292c31;
+}
+
+#message {
+    width: 90%;
+    height: 12vh;
+}
+
+.thank-you {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #292c31;
+    border-width: 0.3rem;
+    display: flex;
+    justify-content: center;;
+
+}
