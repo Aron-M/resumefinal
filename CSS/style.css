@@ -137,7 +137,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -258,67 +258,7 @@ body {
     border-width: 0.1rem;
 }
 
-.button-about-me {
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 4rem;
-    padding: 0.65em 1.6em;
-    border: 3px solid #ffffff;
-    border-radius: 15px;
-    box-sizing: border-box;
-    font-size: 1.6rem;
-    font-family: "Alexandria", sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
-    transition: all 0.2s;
-    animation: bn13bouncy 2.5s infinite linear;
-    position: relative;
-}
 
-.bn13 {
-    text-decoration: none;
-}
-
-.button-about-me:hover {
-    background-color: white;
-    color: #000000;
-    text-decoration: none;
-}
-
-
-@keyframes bn13bouncy {
-    0% {
-        top: 0em;
-    }
-
-    40% {
-        top: 0em;
-    }
-
-    43% {
-        top: -0.9em;
-    }
-
-    46% {
-        top: 0em;
-    }
-
-    48% {
-        top: -0.4em;
-    }
-
-    50% {
-        top: 0em;
-    }
-
-    100% {
-        top: 0em;
-    }
-}
 
 .cv {
     display: flex;
@@ -326,9 +266,27 @@ body {
 }
 
 .cv-pdf {
-    width: 10rem;
+    width: 8rem;
     height: auto;
     margin-top: 2rem;
+}
+
+#cv-info {
+    text-align: center;
+}
+
+#contact-info {
+    text-align: center;
+    margin-bottom: 2rem;;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#about-info {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact-message {
@@ -380,16 +338,50 @@ body {
 }
 
 .building-block {
-    display: grid;
-    margin-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .bb-photos {
     width: 40vw;
-    margin-top: 2vw;
+    margin-top: 3rem;
+    margin-right: 0;
     border-width: 0.1rem;
     border-color: white;
     border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+#bb-logo {
+    border: none;
+    height: 4rem;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+
+#bb-description {
+
+    max-width: 13rem;
+    font-size: 3.5vw;
+    margin-left:1.2rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+
+.bb-logo-and-description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+#find-me-wrap {
+    display:flex;
+    flex-direction: row;
 }
 
 .thank-you {
