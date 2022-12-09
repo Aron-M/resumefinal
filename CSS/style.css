@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
 * {
     margin: 0;
     font-family: "Alexandria", sans-serif;
@@ -50,9 +55,8 @@ body {
 
 #home-button i {
     font-size: 2rem;
-    padding-left: 0.8vw;
     margin-top: 1rem;
-    margin-right: 4vw;
+    margin-right: 1vw;
     margin-bottom: 1.5rem;
     color: #292c31;
 
@@ -358,6 +362,22 @@ color: #292c31;
 #message {
     width: 90%;
     height: 12vh;
+}
+
+
+.map-wrapper {
+   display:flex;
+   justify-content: center;
+}
+
+.building-block {
+    display: grid;
+    margin-left: 8vw;
+}
+
+.bb-photos {
+    width: 40vw;
+    margin-top: 2vw;
 }
 
 .thank-you {
