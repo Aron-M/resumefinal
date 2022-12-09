@@ -4,7 +4,6 @@ html {
 }
 
 * {
-    margin: 0;
     font-family: "Alexandria", sans-serif;
     color: rgb(246, 249, 255);
 }
@@ -12,10 +11,10 @@ html {
 body {
     background-image: linear-gradient(to bottom,
             rgb(246, 249, 255) 0rem,
-            rgb(246, 249, 255) 17rem,
-            rgb(41, 44, 49) 17rem,
-            rgb(41, 44, 49) 100vh);
-    height: 650vh;
+            rgb(246, 249, 255) 20rem,
+            rgb(41, 44, 49) 0rem,
+            rgb(41, 44, 49) 1000rem);
+    height: 490vh;
     margin: 0;
 }
 
@@ -26,7 +25,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 10%;
+    height: 8%;
     z-index: 999999;
 }
 
@@ -48,14 +47,12 @@ body {
 .nav-button i {
     font-size: 2rem;
     margin-right: 4vw;
-    margin-top: 1rem;
     margin-bottom: 1rem;
     color: #292c31
 }
 
 #home-button i {
     font-size: 2rem;
-    margin-top: 1rem;
     margin-right: 1vw;
     margin-bottom: 1.5rem;
     color: #292c31;
@@ -114,14 +111,6 @@ body {
     object-fit: cover;
 }
 
-.header-1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
 
 #line-1 {
     margin-top: 3rem;
@@ -138,7 +127,7 @@ body {
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -192,7 +181,7 @@ body {
 }
 
 .level-description {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .framework-list {
@@ -211,7 +200,7 @@ body {
 #bootstrap-container {
     display: flex;
     justify-content: space-around;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     margin-left: 0.5rem;
     border-width: 0.1rem;
     border-style: solid;
@@ -222,7 +211,7 @@ body {
 #jsquery-container {
     display: flex;
     justify-content: space-between;
-    margin-right: 1.5rem;
+    margin-right: 0.5rem;
     margin-left: 0.5rem;
     border-width: 0.1rem;
     border-style: solid;
@@ -236,7 +225,7 @@ body {
 #django-container {
     display: flex;
     justify-content: space-around;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     margin-left: 0.5rem;
     border-width: 0.1rem;
     border-style: solid;
@@ -273,6 +262,9 @@ body {
 
 #cv-info {
     text-align: center;
+    margin-bottom: 2rem;;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #contact-info {
@@ -333,8 +325,11 @@ body {
 
 
 .map-wrapper {
-    display: flex;
+    display:flex;
     justify-content: center;
+    margin-left:0.5rem;
+    width:90%;
+    
 }
 
 .building-block {
@@ -381,8 +376,36 @@ body {
 
 #find-me-wrap {
     display:flex;
-    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: center;
 }
+
+#where-to-find-me {
+    margin-left: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height:5%;
+    background-color: rgb(246, 249, 255);
+    color: rgb(152, 0, 0);
+    text-align: center;
+  }
+
+  #footer{
+    color:#000000;
+  }
+
+  #footer p {
+    color:#000000;
+    font-size: 0.7rem;
+  }
+
 
 .thank-you {
     font-family: 'Inter', sans-serif;
