@@ -119,7 +119,7 @@ body {
 
 
 #line-1 {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     height: 2px;
     border-width: 0;
     background-color: #000000;
@@ -176,39 +176,43 @@ body {
 .skills {
     display: grid;
     grid-template-columns: 40% 60%;
-    max-width: 22rem;
+    width: 90%;
     margin-top: 1.5rem;
     margin-left: 6vw;
 
 }
 
 .competent-skills {
-    width: 5rem;
-    max-height: 113px;
+    width: 18vw;
+    max-height: 38vw;
     display: flex;
     margin-top: 18%;
+    align-items: center;
 
 }
 
 #level-list {
     list-style: square;
     max-width: 50vw;
-    margin-top: 1.5rem;
+    max-height: 113px;
+    margin-top: 12%;
     margin-bottom: 1rem;
     padding-inline-start: 0;
     font-family: "Alexandria", sans-serif;
-    font-size: 0.7rem;
+    font-size: 2.8vw;
+}
+
+.framework-description {
+    font-size: 2.8vw;
 }
 
 .level-description {
-    font-size: 0.7rem;
+    font-size: 2.8vw;
 }
 
 .framework-list {
     display: flex;
     margin-top: 2rem;
-    font-size: 0.7rem;
-    margin-top: 16%;
     text-align: center;
 }
 
