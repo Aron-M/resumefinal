@@ -34,13 +34,15 @@
     text-align: center;
     transition: all 0.2s;
     animation: open-buttonbouncy 2.5s infinite linear;
-    position: relative;
 }
 
 .open-button:hover {
     background-color: rgb(102, 88, 88);
     color: #faf5f5;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -87,6 +89,7 @@
     line-height: 1.5;
     color: var(--gray-8);
     color: black;
+    align-items: center;
 
   }
   
@@ -103,6 +106,17 @@
     color: black;
     font-weight: 700;
     padding: var(--size-2) var(--size-4);
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  button {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
   
   .button:hover,

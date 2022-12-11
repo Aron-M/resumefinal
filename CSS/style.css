@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    margin: 0;
 
 }
 
@@ -16,7 +15,6 @@ body {
             rgb(41, 44, 49) 18rem,
             rgb(41, 44, 49) 1000rem);
     height: auto;
-    margin: 0;
 }
 
 .sticky-header {
@@ -133,7 +131,7 @@ body {
 .header-1 {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 600;
@@ -250,6 +248,7 @@ body {
     border-style: solid;
     border-right: none;
     border-top: none;
+    border-bottom: none;
 }
 
 .cms {
@@ -306,7 +305,7 @@ body {
     flex-direction: column;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
+    color: #0a0909;
     border-style: solid;
     border-width: 0.2rem;
     border-color: #ffffff;
@@ -324,6 +323,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: #000000;
 
 }
 
@@ -331,6 +331,7 @@ body {
     margin-bottom: 5%;
     width: 90%;
     height: 3vh;
+    color: #000000;
 }
 
 .button-submit-button {

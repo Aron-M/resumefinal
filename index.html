@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" , href="CSS/style.css">
+    <link rel="stylesheet" , href="CSS/modal.css">
     <link rel="stylesheet" , href="CSS/button.css">
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -121,18 +122,30 @@
                     <span> Working knowledge eiasfbkasfnv ajikfdv buiebvjka,svbaksb vifaefiu buvnkj jrthv beob</span>
                 </ul>
             </span>
-            <img class="competent-frameworks" src="images/jquery.png" alt="Bootstrap">
+            <img class="competent-frameworks" src="images/jquery.png" alt="J-Query">
         </div>
 
         <div class="frameworks-container" id="django-container">
-            <img class="competent-frameworks" src="images/django.png" alt="Bootstrap">
+            <img class="competent-frameworks" src="images/django.png" alt="Django">
             <span class="framework-description">
                 <ul class="framework-list">
                     <span> Working knowledge eiasfbkasfnv ajikfdv buiebvjka,svbaksb vifaefiu buvnkj</span>
                 </ul>
             </span>
         </div>
+
+        <div class="frameworks-container" id="jsquery-container">
+            <span class="framework-description">
+                <ul class="framework-list" id="jsquery-list">
+                    <span> Working knowledge eiasfbkasfnv ajikfdv buiebvjka,svbaksb vifaefiu buvnkj jrthv beob</span>
+                </ul>
+            </span>
+            <img class="competent-frameworks" src="images/react-logo.png" alt="React">
+        </div>
+
     </div>
+
+  
 
     <div class="end-section-line">
         <hr id="line-1">
@@ -173,14 +186,17 @@
 
 
 
-    <button class="open-button">TAP TO READ MORE ABOUT ME!</button>
+    <button class="open-button">TAP TO READ MORE</button>
 
     <dialog class="modal" id="modal">
         <h2 class="modal-p">An interesting title</h2>
-        <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum temporibus ipsam?</p>
+        <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum
+            temporibus ipsam?</p>
         <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo.</p>
-        <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum temporibus ipsam?</p>
-        <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum temporibus ipsam?</p>
+        <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum
+            temporibus ipsam?</p>
+        <p class="modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum
+            temporibus ipsam?</p>
 
         <button class="button close-button">close modal</button>
     </dialog>
@@ -234,16 +250,26 @@
         </div>
         <div id="find-me-wrap">
             <div class="building-block">
-                <img class="bb-photos" src="images/building-block-sligo.jpeg" alt="building block co-working space">
-                <img class="bb-photos" src="images/building-block-sligo-2.jpeg" alt="building block co-working space">
+                <img class="bb-photos" id="bb1" src="images/building-block-sligo.jpeg" alt="building block co-working space">
+
+                <dialog class="building-block-expand">
+                    <img class="bb-photos-modal"  src="images/building-block-sligo.jpeg" alt="building block co-working space">
+                    <button id="close-modal-2">Close</button>
+                </dialog>
+
+                <img class="bb-photos" id="bb2" src="images/building-block-sligo-2.jpeg" alt="building block co-working space">
+                
+                <dialog class="building-block-expand2">
+                    <img class="bb-photos-modal"  src="images/building-block-sligo-2.jpeg" alt="building block co-working space">
+                    <button id="close-modal-3">Close</button>
+                </dialog>
             </div>
 
             <div class="bb-logo-and-description">
                 <img class="bb-photos" id="bb-logo" src="images/building-block-logo.jpg" alt="building block logo">
                 <div id="bb-description">I am stationed at <i>The Building Block</i> co-working offices in the town of
                     Sligo, Republic of Ireland.
-                    Currently working and studying web development remotely on a full-time basis. I'm always available
-                    for MS Teams/Zoom or Slack meetings.</div>
+                    Currently working and studying web development remotely on a full-time basis.</div>
             </div>
         </div>
 
