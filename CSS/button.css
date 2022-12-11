@@ -1,4 +1,22 @@
-.button-about-me {
+.modal {
+    padding: 1em;
+    max-width: 50ch;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    color: black;
+  }
+
+  h2 {
+    color: black;
+  }
+
+  .modal-p {
+    color: black;
+    font-size: 0.7rem;
+  }
+
+
+.open-button {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -6,31 +24,27 @@
     margin-right: 3rem;
     margin-bottom: 4rem;
     padding: 0.65em 1.6em;
-    border: 3px solid #ffffff;
+    border: 3px solid #000000;
     border-radius: 15px;
     box-sizing: border-box;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: "Alexandria", sans-serif;
     font-weight: 300;
-    color: #ffffff;
+    color: #141414;
     text-align: center;
     transition: all 0.2s;
-    animation: bn13bouncy 2.5s infinite linear;
+    animation: open-buttonbouncy 2.5s infinite linear;
     position: relative;
 }
 
-.bn13 {
-    text-decoration: none;
-}
-
-.button-about-me:hover {
-    background-color: white;
-    color: #000000;
+.open-button:hover {
+    background-color: rgb(102, 88, 88);
+    color: #faf5f5;
     text-decoration: none;
 }
 
 
-@keyframes bn13bouncy {
+@keyframes open-buttonbouncy {
     0% {
         top: 0em;
     }
@@ -59,3 +73,45 @@
         top: 0em;
     }
 }
+  
+  .modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+  }
+  
+  /* extra styling */
+  
+  body {
+    min-height: 100vh;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--gray-8);
+    color: black;
+
+  }
+  
+  h1 em {
+    color: var(--cyan-9);
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+  
+  .button {
+    border: 0;
+    cursor: pointer;
+    background: var(--gray-8);
+    color: black;
+    font-weight: 700;
+    padding: var(--size-2) var(--size-4);
+  }
+  
+  .button:hover,
+  .button:focus {
+    background: var(--cyan-9);
+  }
+  
+  form {
+    display: grid;
+    gap: 1em;
+  }
+  
