@@ -11,10 +11,10 @@ html {
 body {
     background-image: linear-gradient(to bottom,
             rgb(246, 249, 255) 0rem,
-            rgb(246, 249, 255) 20rem,
-            rgb(41, 44, 49) 0rem,
+            rgb(246, 249, 255) 18rem,
+            rgb(41, 44, 49) 18rem,
             rgb(41, 44, 49) 1000rem);
-    height: 490vh;
+    height: auto;
     margin: 0;
 }
 
@@ -25,13 +25,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 8%;
+    height: 6%;
     z-index: 999999;
 }
 
 .header-list {
     list-style: none;
     display: flex;
+    margin-top: 0.5rem;
+    margin-bottom:0;
     justify-content: flex-end;
     max-height: fit-content;
 }
@@ -45,16 +47,22 @@ body {
 /* 2.1.2 navigation */
 
 .nav-button i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 4vw;
     margin-bottom: 1rem;
     color: #292c31
 }
 
+#home-button{
+    margin: 0;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
 #home-button i {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
     margin-right: 1vw;
-    margin-bottom: 1.5rem;
     color: #292c31;
 
 }
@@ -113,7 +121,7 @@ body {
 
 
 #line-1 {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     height: 2px;
     border-width: 0;
     background-color: #000000;
@@ -127,7 +135,7 @@ body {
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -178,6 +186,7 @@ body {
     margin-bottom: 1rem;
     padding-inline-start: 0;
     font-family: "Alexandria", sans-serif;
+    font-size: 0.7rem;
 }
 
 .level-description {
@@ -200,8 +209,8 @@ body {
 #bootstrap-container {
     display: flex;
     justify-content: space-around;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
     border-width: 0.1rem;
     border-style: solid;
     border-bottom: none;
@@ -211,8 +220,8 @@ body {
 #jsquery-container {
     display: flex;
     justify-content: space-between;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
     border-width: 0.1rem;
     border-style: solid;
     border-left: none;
@@ -225,8 +234,8 @@ body {
 #django-container {
     display: flex;
     justify-content: space-around;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
     border-width: 0.1rem;
     border-style: solid;
     border-right: none;
