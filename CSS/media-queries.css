@@ -75,10 +75,9 @@
     width: 12vw;
     max-width: 114px;
     max-height: 188px;
-    margin-bottom: 3rem;
+  
     display: flex;
-    margin-right: 1rem;
-    margin-top:0;
+    margin-top:2rem;
 }
 
 .js-logo {
@@ -91,18 +90,19 @@
     max-width: 120px;
 }
 
-.right-logo {
-    margin-left: 4vw;
-}
+
 
 .level-description {
     font-size: 0.8rem;
     width: 2rem;
-    margin-right: 2rem;
+    
 }
 
 .level-list{
     margin-top: 0;
+    text-align: center;
+    list-style: none;
+    padding-left:0;
 }
 
 /*frameworks*/
@@ -124,8 +124,7 @@
     .skills {
       margin-right: 3vw;
       font-size: 20px;
-      display: flex;
-      justify-content: space-between;
+      
       }
 
       .level-description {
@@ -134,18 +133,16 @@
         margin-right: 2rem;
     }
 
-    #level-list {
-        margin-left: 3.8vw;
-        margin-right: 3vw;
+    .level-list {
+        width:34vw;
     }
 
     .left-logo {
-        margin-left: 3vw;
+      
     }
 
     .right-logo {
-        margin-left: 5vw;
-        margin-right: 5vw;;
-    }
+       
 }
 
+}
