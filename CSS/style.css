@@ -131,6 +131,7 @@ body {
 .header-1 {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-left: 0;
     margin-right: 0;
     margin-top: 2.5rem;
@@ -140,17 +141,23 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.academics-header {
+    font-size: 1.3rem;
+}
+
 .code-institute-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align:center;
+    margin: 0;
 }
 
-.code-institute-container i {
-    align-items: center;
-    justify-content: center;
+.code-institute-container p {
+    margin:0;
 }
+
 
 .code-institute {
     width: 14rem;
@@ -191,6 +198,10 @@ body {
 
 }
 
+#python {
+    width: 20vw;
+   height: 25vw;
+}
 #level-list {
     list-style: square;
     max-width: 50vw;
@@ -204,6 +215,8 @@ body {
 
 .framework-description {
     font-size: 2.8vw;
+    padding:0;
+    margin-top:0.2rem;
 }
 
 .level-description {
@@ -211,32 +224,33 @@ body {
 }
 
 .framework-list {
-    display: flex;
-    margin-top: 2rem;
     text-align: center;
+    margin-top: 1.2rem;
 }
 
 .competent-frameworks {
-    width: 8rem;
-    max-height: 160px;
+    max-height: 130px;
+    margin-top: 1rem;
 }
 
 #bootstrap-container {
     display: flex;
     justify-content: space-around;
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     border-width: 0.1rem;
     border-style: solid;
     border-bottom: none;
     border-right: none;
 }
 
+
+
 #jsquery-container {
     display: flex;
     justify-content: space-between;
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     border-width: 0.1rem;
     border-style: solid;
     border-left: none;
@@ -248,15 +262,33 @@ body {
 
 #django-container {
     display: flex;
-    justify-content: space-around;
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border-width: 0.1rem;
     border-style: solid;
     border-right: none;
     border-top: none;
     border-bottom: none;
 }
+
+#react-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-left: none;
+}
+
+#django-list {
+    padding: 0;
+}
+
+#react-list {
+  padding:0;
+}
+
 
 .cms {
     width: 9rem;
@@ -272,7 +304,7 @@ body {
     border-width: 0.1rem;
 }
 
-.ersion-control {
+.version-control {
     display: flex;
     justify-content: space-around;
     justify-content: space-between;
