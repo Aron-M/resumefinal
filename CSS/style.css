@@ -235,7 +235,6 @@ body {
 
 #bootstrap-container {
     display: flex;
-    justify-content: space-around;
     margin-right: 2rem;
     margin-left: 2rem;
     border-width: 0.1rem;
@@ -244,6 +243,9 @@ body {
     border-right: none;
 }
 
+.bootstrap-list {
+    padding:0;
+}
 
 
 #jsquery-container {
@@ -330,6 +332,10 @@ body {
     width: 8rem;
     height: auto;
     margin-top: 2rem;
+}
+
+.modal {
+    width: 85%;
 }
 
 .modal-p i {
