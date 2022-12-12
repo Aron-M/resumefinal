@@ -206,7 +206,7 @@ body {
     list-style: square;
     max-width: 50vw;
     max-height: 113px;
-    margin-top: 12%;
+    margin-top: 6vh;
     margin-bottom: 1rem;
     padding-inline-start: 0;
     font-family: "Alexandria", sans-serif;
@@ -291,36 +291,60 @@ body {
   padding:0;
 }
 
+.tools-header {
+    font-size: 5vw;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 
 .cms {
     width: 9rem;
     height: 8rem;
     margin-top: 0;
+    width:27vw;
+    height: auto;
+    max-width: 172px;
 }
 
+.balsamiq {
+    display: flex;
+    justify-content: center;
+}
+#balsamiq {
+    align-items: center;
+    width:27vw;
+    height: auto;
+    max-width: 172px;
+    margin: 1rem 0 1rem 0;
+}
 #cms-container {
     display: flex;
     justify-content: space-around;
-    margin-right: 2rem;
-    margin-left: 1rem;
     border-width: 0.1rem;
+    
 }
 
 .version-control {
     display: flex;
     justify-content: space-around;
-    justify-content: space-between;
     margin-right: 2rem;
     margin-left: 1rem;
     border-width: 0.1rem;
 }
 .github {
-    width: 12rem;
+    width:30vw;
+    height: auto;
+    max-width: 222px;
 }
 
 .git {
-    width: 7.2rem;
-    margin-left: 1rem;
+    width:25vw;
+    height: auto;
+    max-width: 172px;
 }
 
 .cv {
@@ -332,6 +356,11 @@ body {
     width: 8rem;
     height: auto;
     margin-top: 2rem;
+}
+
+.button-position {
+    display:flex;
+    justify-content: center;
 }
 
 .modal {
@@ -446,7 +475,7 @@ body {
 #bb-description {
 
     max-width: 13rem;
-    font-size: 3.5vw;
+    font-size: 3vw;
     margin-left:1.2rem;
     margin-top: 1.5rem;
     margin-right: 2rem;

@@ -17,23 +17,15 @@
 
 
 .open-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 4rem;
     padding: 0.65em 1.6em;
     border: 3px solid #000000;
     border-radius: 15px;
-    box-sizing: border-box;
     font-size: 2rem;
     font-family: "Alexandria", sans-serif;
     font-weight: 300;
     color: #141414;
-    text-align: center;
     transition: all 0.2s;
-    animation: open-buttonbouncy 2.5s infinite linear;
+   
 }
 
 .open-button:hover {
@@ -45,36 +37,6 @@
     align-items: center;
 }
 
-
-@keyframes open-buttonbouncy {
-    0% {
-        top: 0em;
-    }
-
-    40% {
-        top: 0em;
-    }
-
-    43% {
-        top: -0.9em;
-    }
-
-    46% {
-        top: 0em;
-    }
-
-    48% {
-        top: -0.4em;
-    }
-
-    50% {
-        top: 0em;
-    }
-
-    100% {
-        top: 0em;
-    }
-}
   
   .modal::backdrop {
     background: rgb(0 0 0 / 0.4);
