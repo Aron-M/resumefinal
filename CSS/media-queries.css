@@ -122,10 +122,24 @@
 @media only screen and (min-width: 840px) {
 
     .skills {
-      margin-right: 3vw;
       font-size: 20px;
-      
+      max-width: 50%;
+   
       }
+
+      #skills-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .competent-skills {
+        width: 12vw;
+        max-width: 114px;
+        max-height: 188px;
+      
+        display: flex;
+        margin-top:2rem;
+    }
 
       .level-description {
         font-size: 1rem;
@@ -134,15 +148,17 @@
     }
 
     .level-list {
-        width:34vw;
+        margin-top: 4rem;
+        font-size:1.2rem;
     }
-
-    .left-logo {
-      
-    }
-
-    .right-logo {
-       
 }
+
+@media only screen and (min-width: 2050px) {
+
+    .skills {
+      font-size: 20px;
+      max-width: 40%;
+   
+      }
 
 }

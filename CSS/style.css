@@ -202,7 +202,7 @@ body {
     width: 20vw;
    height: 25vw;
 }
-#level-list {
+.level-list {
     list-style: square;
     max-width: 50vw;
     max-height: 113px;
